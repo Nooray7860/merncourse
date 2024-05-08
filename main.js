@@ -4,9 +4,8 @@ function pallindrome() {
 
 pallindrome();
 
-function cal(){
-    console.log("cal");
-  }
-  
-  cal();
-  
+function cal() {
+  console.log("cal");
+}
+
+cal();

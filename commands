@@ -6,3 +6,10 @@ to swicth into branches
 
 to create a new branch directcly switch into that branch
 //git checkout -b branchName
+
+
+to check list of local branches
+//git branch
+
+to check list of local and remote branches
+//git branch -a
