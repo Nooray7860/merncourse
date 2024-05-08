@@ -1,0 +1,8 @@
+to crate a new branch 
+//git branch branchName
+
+to swicth into branches
+//git checkout existing branchName
+
+to create a new branch directcly switch into that branch
+//git checkout -b branchName
