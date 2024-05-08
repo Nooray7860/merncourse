@@ -3,3 +3,10 @@ function pallindrome() {
 }
 
 pallindrome();
+
+function cal(){
+    console.log("cal");
+  }
+  
+  cal();
+  
