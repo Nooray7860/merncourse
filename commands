@@ -13,3 +13,6 @@ to check list of local branches
 
 to check list of local and remote branches
 //git branch -a
+
+to publish newly created local branch to remote repo
+//git push -u origin newCreatedBanchName
