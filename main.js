@@ -1,13 +1,3 @@
-function pallindrome() {
-  console.log("pallindrome");
-}
-
-pallindrome();
-
-function cal() {
-  console.log("cal");
-}
-
 cal();
 function calculate(num1, num2, operation) {
   let result;
@@ -30,3 +20,13 @@ function calculate(num1, num2, operation) {
   return result;
 }
 console.log(calculate(10, 20, "subtract"));
+
+function pallindrome() {
+  console.log("pallindrome");
+}
+
+pallindrome();
+
+function cal() {
+  console.log("cal");
+}
