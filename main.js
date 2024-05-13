@@ -1,3 +1,12 @@
+function pallindrome() {
+    console.log("pallindrome");
+  }
+  
+  pallindrome();
+function cal() {
+    console.log("cal");
+  }
+  
 function calculate(num1, num2, operation) {
   let result;
   switch (operation) {
@@ -20,14 +29,7 @@ function calculate(num1, num2, operation) {
 }
 console.log(calculate(10, 20, "subtract"));
 
-function cal() {
-  console.log("cal");
-}
 
-function pallindrome() {
-  console.log("pallindrome");
-}
 
-pallindrome();
 
 cal();
