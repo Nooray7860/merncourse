@@ -13,3 +13,4 @@ person.nationality = "pakistani";
 // Methods: keys, values, entries
 
 console.log(Object.keys(person));
+console.log(Object.val(person));
