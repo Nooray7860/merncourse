@@ -5,11 +5,44 @@
 
 // De-structuring
 
-const array1 = [1, "one", true, null, undefined];
+// const array1 = [1, "one", true, null, undefined];
 
-const array2 = array1;
+// const [a ,b ] = array1
 
-array2[0] = "new check";
+// const array2 = array1;
 
-console.log("array1", array1);
-console.log("array2", array2);
+// array2[0] = "new check";
+
+// console.log("array1", array1);
+// console.log("array2", array2);
+
+//
+
+const person1 = {
+  name: "shofi",
+  age: 23,
+  parents: {
+    mother: "sadia azmat",
+    father: "azmat saddique",
+  },
+};
+const person2 = {
+  name: "mujtaba",
+  age: 24,
+  parents: {
+    mother: "sadia azmat",
+    father: "azmat saddique",
+  },
+};
+const person3 = {
+  name: "hadia",
+  age: 20,
+  parents: {
+    mother: "sadia azmat",
+    father: "azmat saddique",
+  },
+};
+
+const persons = [person1, person2, person3];
+
+console.log(persons);

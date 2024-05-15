@@ -12,5 +12,12 @@ person.nationality = "pakistani";
 
 // Methods: keys, values, entries
 
-console.log(Object.keys(person));
-console.log(Object.val(person));
+// console.log(Object.keys(person));
+// console.log(Object.values(person));
+// console.log(Object.entries(person));
+
+const check = Object.entries(person);
+// console.log(check[0][1]);
+
+const { name, age } = person;
+console.log(name, age);
